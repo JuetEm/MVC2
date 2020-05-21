@@ -27,11 +27,14 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>action</servlet-name>
-        <url-pattern>*.do</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
-    <!-- <welcome-file-list>
+    <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
-    </welcome-file-list> -->
+    </welcome-file-list>
+    <error-page>
+        <location>/error_dev</location>
+    </error-page>
     <filter>
         <filter-name>encodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -42,7 +45,7 @@
     </filter>
     <filter-mapping>
         <filter-name>encodingFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-        <servlet-name>action</servlet-name>
+        <url-pattern>/</url-pattern>
+        <!-- <servlet-name>action</servlet-name> -->
     </filter-mapping>
 </web-app>
