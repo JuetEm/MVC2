@@ -10,14 +10,12 @@
 <head>
     <title>LogIn</title>
     <script src="/resources/jquery/jquery-3.5.1.js"></script>
+    <script src="/resources/js/logIn.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $(".sgnBtn").click(function(){
-                alert("jQuery is working!! 동적 반영 되냐!????\r\n" +
-                    this.getAttribute("id")+" 버튼 울린다!1111");
+            $(document).ready(function(){
+                alert("WORKING!!");
+                clickControl();
             });
-        });
-
     </script>
 </head>
 <body>
