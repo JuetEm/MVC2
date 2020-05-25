@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Juet
-  Date: 2020. 5. 21.
-  Time: 오전 10:04
+  Date: 2020. 5. 22.
+  Time: 오후 3:36
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -14,22 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SignUp</title>
     <link rel="stylesheet" href="/resources/bootstrap-3.3.2-dist/css/bootstrap.min.css">
-    <script type="text/javascript">
-        $().on("load",function(){
-
-        });
-    </script>
 </head>
 <body>
-    <div class="container">
-        <h1>Sign UP Page!!!</h1>
-        <br/><br/>
-        <p>회원가입 화면입니다.!!</p>
-    </div>
 
-
-
-    <script src="/resources/jquery/jquery-3.5.1.js"></script>
-    <script src="/resources/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+<script src="/resources/jquery/jquery-3.5.1.js"></script>
+<script src="/resources/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

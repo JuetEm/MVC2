@@ -14,11 +14,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SignUp</title>
     <link rel="stylesheet" href="/resources/bootstrap-3.3.2-dist/css/bootstrap.min.css">
+    <script type="text/javascript">
+        $().on("load",function(){
+
+        });
+    </script>
 </head>
 <body>
-    Sign UP Page!!!
-    <br/><br/>
-    회원가입 화면입니다.!!
+    <div class="container">
+        <h1>Sign UP Page!!!</h1>
+        <br/><br/>
+        <p>회원가입 화면입니다.!!</p>
+    </div>
 
 
 
